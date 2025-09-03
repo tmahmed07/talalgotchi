@@ -1,2 +1,6 @@
-# talalgotchi
-A recreation of a Tamagotchi with Arduino and a small I2C Oled Display.
+# Talalgotchi
+## Description:
+  Talalgotchi is a recreation of the small interactive pet know as the TamaGotchi. It features a small animated pet that dances from side to side across the screen that the user must take care of. The pet has 3 main stats: Hunger, Fulfillment, and Energy. Use the right button to cycle through specific menu screens to cater to each stat, while a fourth screen displays age. While on the hunger menu, the user can choose to feed the Pet a snack or food, both will reduce decrease hunger. For increasing fulfillment, the user can choose to pet the talalgotchi; and for increasing Energy, the user can put the talagotchi to bed. Use the left button to go backwards if accessing the wrong menu, and use the middle button to select an option from a menu.
+## Installation
+The talalgotchi uses an Arduino Uno, breadboard, small 128x64 I2C oled display, 3 pushbuttons, and 12 wires. For wiring, connect your Arduino's power (3.3V) and ground to the breadboard, then connect the power and ground rails to the GND and VCC pins on the display. Further, connect the SCL pin on the display to A5 on the Arduino, and SDA on the display to A4 on the Arduino. For the buttons, connect three push buttons to ground. Then connect the right button to pin 2 on the digital input side, the middle button to pin 3, and the left button to pin 4.
+## 
